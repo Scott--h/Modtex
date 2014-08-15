@@ -1,0 +1,44 @@
+
+%----------------------------------------------------------------------------
+% Equation code. Equations are referencable through their number.
+%----------------------------------------------------------------------------
+
+\begin{equation}
+x = h_{d}/m
+\end{equation}
+\begin{equation}
+y_{n} = y_{n - 1} + (x_{n} - x_{n - 1})\tan(\theta_{n})
+\end{equation}
+
+%----------------------------------------------------------------------------
+% Figure code. Here's a breakdown of what makes this document friendly:
+%
+% [H] forces the image to display exactly where it is placed within a document.
+% [width=1.0\textwidth] limits figure size to the width of the text area.
+% The caption should describe the figure clearly and concisely.
+% The label should follow a convention making it easy to reference.
+%----------------------------------------------------------------------------
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.0\textwidth]{\imgpath/PICTURE OR FIGURE HERE}
+\caption{}
+\label{}
+\end{figure}
+
+%----------------------------------------------------------------------------
+% Table code. tableizer.m in Matlab Utilities allows for easy conversion of
+% a lot of MATLAB code into LaTeX tabular format.
+%----------------------------------------------------------------------------
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  L = 130 m. & h = 2.5 m & $\theta_{o}$ = $20^{o}$ \\
+  \hline
+  Values Calculated: & $K_{r}$ & $\theta$  \\ 
+  \hline
+  Hand Calculation & 0.967 & 2.34\\
+  \hline
+  Function & 0.9698 & 2.357 \\
+  \hline
+\end{tabular}
